@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blocked - Ha Ha!</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #eee;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.2em;
+      color: #ff4c4c;
+      text-shadow: 0 0 8px #ff0000;
+    }
+    p {
+      font-size: 1.5rem;
+      margin-bottom: 1.5em;
+      color: #ccc;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      margin: 0 auto;
+      box-shadow: 0 0 15px rgba(255, 76, 76, 0.5);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .iframe-container iframe {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ha Ha! Blocked!</h1>
+  <p>This site is off limits. Try something else.</p>
+
+  <div class="iframe-container">
+    <iframe
+      src="https://fandango.getyarn.io/yarn-clip/b5adb997-2bbb-42b0-8c74-f473c187e671/embed?autoplay=false&responsive=true"
+      allowfullscreen
+      loading="lazy"
+      title="Nelson Ha Ha Clip"
+    ></iframe>
+  </div>
+
+  <footer>
+    &copy; 2025 Blocked by Dolly Cypher
+  </footer>
+</body>
+</html>
